@@ -296,7 +296,7 @@ button:active {
   }
 
   .robot-details{
-    width: 150px;
+    width: 170px;
     /* font-size: 15px; */
   }
 
@@ -314,11 +314,19 @@ button:active {
 
   .controls {
     padding: 10px;
+    width: 250px;
+    font-size: 15px;
+    padding: 7px;
+  }
+
+  .control-group{
+    margin-bottom: 5px;
   }
 
   .save-button {
     font-size: 12px;
     padding: 6px 12px;
+    margin-bottom: 5px;
   }
 
   button {
