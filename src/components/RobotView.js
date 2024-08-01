@@ -53,8 +53,8 @@ const RobotView = ({ robotName = "Robot X", shoulderAngle, elbowAngle }) => {
       <div className="robot-details">
         <h5 className="robot-name">{robotName}</h5>
         <div className="angles-display">
-          <p>Shoulder Angle: <p style={{color: "green"}}>{radiansToDegrees(shoulderAngle).toFixed(2)}°</p></p>
-          <p>Elbow Angle: <p style={{color: "green"}}>{radiansToDegrees(elbowAngle).toFixed(2)}°</p></p>
+          <p>Shoulder Angle: <span style={{color: "green"}}>{radiansToDegrees(shoulderAngle).toFixed(2)}°</span></p>
+          <p>Elbow Angle: <span style={{color: "green"}}>{radiansToDegrees(elbowAngle).toFixed(2)}°</span></p>
         </div>
       </div>
       <div className="view-controls">
